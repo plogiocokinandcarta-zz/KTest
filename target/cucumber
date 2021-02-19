@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-17T19:15:50.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2875955000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:18)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "I want to see if the third option on the second page is",
+        "description": "  available for purchase and can be added to the cart.",
+        "id": "as-a-customer-when-i-search-for-alexa-;i-want-to-see-if-the-third-option-on-the-second-page-is",
+        "after": [
+          {
+            "result": {
+              "duration": 192792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:29)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5047537000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to www.amazon.com",
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:36)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4118966000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "searches for \"Alexa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alexa\"",
+                  "offset": 13
+                }
+              ],
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:42)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172133000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigates to the second page",
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:50)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17238758000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects the third item",
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:55)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151318000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the item is available for purchase",
+            "match": {
+              "location": "org.steps.StepDef.\u003cinit\u003e(StepDef.kt:58)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a Customer when I search for Alexa,",
+    "description": "",
+    "id": "as-a-customer-when-i-search-for-alexa-",
+    "keyword": "Feature",
+    "uri": "file:src/test/kotlin/org/features/AmazonSearch.feature",
+    "tags": []
+  }
+]
